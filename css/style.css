@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+    color: white;
+}
+.container span img{
+    height: 87px;
+    width: 90px;
+    border-radius: 17px;
+    margin-left: -108px;
+}
+.navbar{
+    border-bottom: 2px solid aqua;
+    background: #363c42;
+    opacity: 0.50;
+    font-size: 24px;
+}
+#home-section{
+    background: url(../image/bg3.jpg)no-repeat center top;
+    min-height: 700px;
+    background-size: cover;
+   background-attachment: fixed;
+   opacity: .89;
+
+
+}
+#home-section .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    min-height: 700px;
+
+}
+#home-section .home-inner{
+   padding-top: 150px;
+   padding-bottom: 50px;
+}
+.home-inner .fas{
+    background: #fff;
+    color: rgb(100, 5, 124);
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.resetbtn{
+    background-color: #0f7cf1;
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    cursor: pointer;
+      background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.resetbtn:hover{
+    background-color: white;
+}
+#services .container img{
+    height: 79%;
+    width: 96%;
+   
+}
+#about-us1 .fas{
+    background: rgb(179, 39, 39);
+    color: rgb(12, 231, 121);
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+#footer-section i{
+    color: rgb(189, 19, 90);
+   margin: 5px;
+   padding: 5px;
+   font-size: 24px;
+   cursor: pointer;
+}
